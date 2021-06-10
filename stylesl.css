@@ -11,9 +11,7 @@ body {
     border-radius: 0px
 }
 
-.register{
-    padding: 4rem 2rem 4rem 2rem;
-}
+
 
 .rows{
     
@@ -157,7 +155,7 @@ a {
     background-color: #293b5f;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
     .logo {
         margin-left: 0px
     }
