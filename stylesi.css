@@ -11,7 +11,10 @@ body {
     border-radius: 0px
 }
 
-
+.center{
+    display: flex;
+  align-items: center;
+}
 
 .card2 {
     margin: 0px 40px
