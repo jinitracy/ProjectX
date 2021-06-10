@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="C:\Users\91638\OneDrive\Desktop\Web Development\TinDog-Start-master\projectx.ico">
+  <title>Checkout</title>
+  <script src="https://kit.fontawesome.com/6f511632e0.js" crossorigin="anonymous"></script>
+  <!-- icon -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="C:\Users\91638\OneDrive\Desktop\Web Development\TinDog-Start-master\css for checkout\stylesc.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#title"><i class="fas rot fa-project-diagram"></i> ProjectX</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="C:\Users\91638\OneDrive\Desktop\Web Development\TinDog-Start-master\css\index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="C:\Users\91638\OneDrive\Desktop\Web Development\TinDog-Start-master\css for album\project.html">Projects</a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#pricing">Checkout</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="C:\Users\91638\OneDrive\Desktop\Web Development\TinDog-Start-master\css for login\login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="C:\Users\91638\OneDrive\Desktop\Web Development\TinDog-Start-master\css for signup\signup.html">Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </section>
+  <div class="row">
+    <div class="col-75">
+      <div class="container">
+        <form action="/action_page.php">
+
+          <div class="row">
+            <div class="col-50">
+              <h3>Customer Details</h3>
+              <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Jini J Tracy">
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="jinitracy03.tj@gmail.com">
+              <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+              <input type="text" id="adr" name="address" placeholder="23/6, ECR, Chennai-12">
+              <label for="city"><i class="fa fa-institution"></i> City</label>
+              <input type="text" id="city" name="city" placeholder="Chennai">
+
+              <div class="row">
+                <div class="col-50">
+                  <label for="state">State</label>
+                  <input type="text" id="state" name="state" placeholder="Tamil Nadu">
+                </div>
+                <div class="col-50">
+                  <label for="zip">Pin</label>
+                  <input type="text" id="zip" name="pin" placeholder="600127">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-50">
+              <h3>Payment</h3>
+              <label for="fname">Accepted Cards</label>
+              <div class="icon-container">
+                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                <i class="fa fa-cc-discover" style="color:orange;"></i>
+              </div>
+              <label for="cname">Name on Card</label>
+              <input type="text" id="cname" name="cardname" placeholder="Jini J Tracy">
+              <label for="ccnum">Credit card number</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+              <label for="expmonth">Exp Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+              <div class="row">
+                <div class="col-50">
+                  <label for="expyear">Exp Year</label>
+                  <input type="text" id="expyear" name="expyear" placeholder="2018">
+                </div>
+                <div class="col-50">
+                  <label for="cvv">CVV</label>
+                  <input type="text" id="cvv" name="cvv" placeholder="352">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <label>
+            <input type="checkbox" checked="checked" name="sameadr"> I agree to all the terms and conditions
+          </label>
+          <input type="submit" value="Continue to checkout" class="btn">
+        </form>
+      </div>
+    </div>
+
+    <div class="col-25">
+      <div class="container">
+        <h4>Choose your plan
+          <span class="price" style="color:black">
+            <i class="fa fa-shopping-cart"></i>
+
+          </span>
+        </h4>
+        <label>
+          <input type="radio" checked="checked" name="sameadr"> Gold <br />
+          <input type="radio" checked="checked" name="sameadr"> Diamond <br>
+          <input type="radio" checked="checked" name="sameadr"> Platinum <br>
+        </label>
+
+        <hr>
+        <p>Total <span class="price" style="color:black"><b>₹xxx / mon</b></span></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

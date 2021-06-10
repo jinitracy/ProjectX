@@ -1,0 +1,98 @@
+
+#title{
+  background-color:  #293b5f;
+}
+
+/* Navigation */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+.navbar {
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+.btn-group{
+  background-color: #293b5f;
+  color: white;
+}
+
+
+/* text */
+
+#text{
+  text-align: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  padding: 5rem 4rem 5rem 4rem;
+}
+
+/* cards */
+
+.card{
+  width: 30%;
+
+}
+
+#card{
+  background-color: #dbe6fd;
+}
+.card-deck{
+
+  padding: 5rem 5rem 5rem 5rem;
+}
+/* prev */
+
+#prev{
+    background-color:  #293b5f;
+}
+.card1 .card-body1{
+  background-color:  #293b5f;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+.toggle{
+  align-items: center;
+  padding-left:27rem;
+}
+.card-title1{
+  color: white;
+}
+/* footer */
+
+#cta {
+  background-color: #293b5f;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+.final_text{
+  padding-bottom: 3rem;
+}
+#footer{
+  background-color: #deeeea;
+  text-align: center;
+}
