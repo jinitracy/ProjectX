@@ -150,7 +150,7 @@ a {
     background-color: #293b5f;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 920px) {
     .logo {
         margin-left: 0px
     }
