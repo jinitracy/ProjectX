@@ -11,6 +11,13 @@ body {
     border-radius: 0px
 }
 
+
+
+.rows{
+    
+    width: 80%;
+}
+
 .card2 {
     margin: 0px 40px
 }
@@ -147,10 +154,8 @@ a {
     color: #fff;
     background-color: #293b5f;
 }
-.btn-primary{
-  background-color: #293b5f;
-}
-@media screen and (max-width: 991px) {
+
+@media screen and (max-width: 1200px) {
     .logo {
         margin-left: 0px
     }
@@ -168,34 +173,4 @@ a {
         border-top: 1px solid #EEEEEE !important;
         margin: 0px 15px
     }
-}
-.border-md {
-    border-width: 2px;
-}
-
-.btn-facebook {
-    background: #405D9D;
-    border: none;
-}
-
-.btn-facebook:hover, .btn-facebook:focus {
-    background: #314879;
-}
-
-.btn-twitter {
-    background: #42AEEC;
-    border: none;
-}
-
-.btn-twitter:hover, .btn-twitter:focus {
-    background: #1799e4;
-}
-#login{
-  padding-right: 3rem;
-  margin-right: 3px;
-}
-
-.register{
-  align-items:center; 
-  text-align: center;
 }
